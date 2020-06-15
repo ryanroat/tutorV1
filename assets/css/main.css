@@ -3406,8 +3406,12 @@ body.landing #main {
 /* CTA */
 
 #cta {
-  background: #e89980;
-  color: #f9e6df;
+  /* background: #e89980; */
+  background-image: url("../../images/art-pencils-crop.jpg");
+  /* background-position: top left; */
+  background-size: contain;
+  /* color: #f9e6df; */
+  color: #111;
   padding: 3.5em 0 4em 0;
   text-align: center;
 }
