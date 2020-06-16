@@ -3436,7 +3436,8 @@ body.landing #main {
 #cta .button {
   box-shadow: none;
   background: #fff;
-  color: #e89980;
+  /* color: #e89980; */
+  color: rgba(16, 16, 16, 0.75);
 }
 
 #cta input[type="text"],
@@ -3444,8 +3445,8 @@ body.landing #main {
 #cta input[type="email"],
 #cta select,
 #cta textarea {
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.15);
+  color: #111;
+  background: rgba(255, 255, 255, 0.25);
   border: 0;
 }
 
@@ -3458,23 +3459,23 @@ body.landing #main {
 }
 
 #cta ::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: rgba(16, 16, 16, 0.75) !important;
 }
 
 #cta :-moz-placeholder {
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: rgba(16, 16, 16, 0.75) !important;
 }
 
 #cta ::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: rgba(16, 16, 16, 0.75) !important;
 }
 
 #cta :-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: rgba(16, 16, 16, 0.75) !important;
 }
 
 #cta .formerize-placeholder {
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: rgba(16, 16, 16, 0.75) !important;
 }
 
 /* Wide */
