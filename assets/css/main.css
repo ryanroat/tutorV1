@@ -2879,7 +2879,8 @@ input[type="submit"].fit,
 input[type="reset"].fit,
 input[type="button"].fit,
 .button.fit {
-  width: 100%;
+  /* width: 100%;   default value */
+  width: auto;
 }
 
 input[type="submit"].small,
