@@ -21,3 +21,14 @@ img#clubs {
   /* display: inline-block; */
   position: relative;
 }
+
+img#esl {
+  margin: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 67%;
+  border-radius: 6px;
+  border: 0;
+  /* display: inline-block; */
+  position: relative;
+}
