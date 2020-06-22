@@ -42,7 +42,7 @@
             </li>
             <!--Drop Down Menu end-->
             <!--nav bar button start-->
-            <li><a href="#" class="button">Request Info</a></li>
+            <li><a href="./contact.html" class="button">Request Info</a></li>
             <!--nav bar button start-->
           </ul>
         </nav>
@@ -124,7 +124,9 @@
               <span class="image featured"
                 ><img src="images/teach-desk.jpg" alt=""
               /></span>
-              <h3>Private Tutoring for all Ages</h3>
+              <a href="./tutor.html">
+                <h3>Private Tutoring for all Ages</h3>
+              </a>
               <p>
                 Reading, comprehension, writing
               </p>
@@ -138,9 +140,11 @@
           <div class="col-4 col-12-narrower">
             <section class="box special">
               <span class="image featured"
-                ><img src="images/reading.jpg" alt=""
+                ><img src="images/club02.jpg" alt=""
               /></span>
-              <h3>Book Clubs for Kids/Teens/Adults</h3>
+              <a href="./clubs.html">
+                <h3>Book Clubs for Kids/Teens/Adults</h3>
+              </a>
               <p>
                 Participants will choose books Take on different roles Practice
                 using grade/age level academic language
@@ -157,7 +161,9 @@
               <span class="image featured"
                 ><img src="images/hola.jpg" alt=""
               /></span>
-              <h3>English as a Second Language</h3>
+              <a href="./esl.html">
+                <h3>English as a Second Language</h3>
+              </a>
               <p>
                 Individuals, families, small groups
               </p>
@@ -178,10 +184,18 @@
         <h2>Request more information:</h2>
         <p>
           If you have questions, or want to know more about how I can help,<br />
-          please contact me. I'd be happy to conect with you.
+          please contact me. I'd be happy to connect with you.<br />
+          <!-- Use our <ul><li><a href="./contact.html">Contact Form</a></li></ul> or provide your
+          email below. -->
         </p>
 
-        <form>
+        <form
+          name="request"
+          method="post"
+          action="#"
+          data-netlify-recaptcha="true"
+          data-netlify="true"
+        >
           <div class="row gtr-50 gtr-uniform">
             <div class="col-8 col-12-mobilep">
               <input
@@ -191,7 +205,8 @@
                 placeholder="Email Address"
               />
             </div>
-            <div class="col-4 col-12-mobilep">
+            <div data-netlify-recaptcha="true"></div>
+            <div class="col-3 col-12-mobilep">
               <input type="submit" value="Request Info" class="fit" />
             </div>
           </div>

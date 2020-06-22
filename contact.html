@@ -42,7 +42,7 @@
             </li>
             <!--Drop Down Menu end-->
             <!--nav bar button start-->
-            <li><a href="#" class="button">Request Info</a></li>
+            <li><a href="./contact.html" class="button">Request Info</a></li>
             <!--nav bar button start-->
           </ul>
         </nav>
@@ -52,10 +52,19 @@
       <section id="main" class="container medium">
         <header>
           <h2>Contact Us</h2>
-          <p>Tell us what you think about our little operation.</p>
+          <p>
+            Have Questions? Need More Infomation?<br />
+            Please let us know below, and we'll get back to shortly.
+          </p>
         </header>
         <div class="box">
-          <form method="post" action="#">
+          <form
+            name="contact"
+            method="post"
+            action="#"
+            data-netlify-recaptcha="true"
+            data-netlify="true"
+          >
             <div class="row gtr-50 gtr-uniform">
               <div class="col-6 col-12-mobilep">
                 <input
@@ -94,6 +103,7 @@
               </div>
               <div class="col-12">
                 <ul class="actions special">
+                  <li><div data-netlify-recaptcha="true"></div></li>
                   <li><input type="submit" value="Send Message" /></li>
                 </ul>
               </div>
