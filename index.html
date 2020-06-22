@@ -184,10 +184,18 @@
         <h2>Request more information:</h2>
         <p>
           If you have questions, or want to know more about how I can help,<br />
-          please contact me. I'd be happy to connect with you.
+          please contact me. I'd be happy to connect with you.<br />
+          <!-- Use our <ul><li><a href="./contact.html">Contact Form</a></li></ul> or provide your
+          email below. -->
         </p>
 
-        <form>
+        <form
+          name="request"
+          method="post"
+          action="#"
+          data-netlify-recaptcha="true"
+          data-netlify="true"
+        >
           <div class="row gtr-50 gtr-uniform">
             <div class="col-8 col-12-mobilep">
               <input
@@ -197,7 +205,8 @@
                 placeholder="Email Address"
               />
             </div>
-            <div class="col-4 col-12-mobilep">
+            <div data-netlify-recaptcha="true"></div>
+            <div class="col-3 col-12-mobilep">
               <input type="submit" value="Request Info" class="fit" />
             </div>
           </div>
