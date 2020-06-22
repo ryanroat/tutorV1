@@ -32,3 +32,12 @@ img#esl {
   /* display: inline-block; */
   position: relative;
 }
+
+/*   custom bg image CSS below located in main.css file
+in #CTA section
+
+@media screen and (max-width: 675px) {
+  #cta {
+    background-repeat: no-repeat;
+  }
+} */

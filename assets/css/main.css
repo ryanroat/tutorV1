@@ -3410,12 +3410,18 @@ body.landing #main {
 #cta {
   /* background: #e89980; */
   background-image: url("../../images/art-pencils-crop.jpg");
-  /* background-position: top left; */
   background-size: contain;
-  /* color: #f9e6df; */
   color: #111;
-  padding: 3.5em 0 4em 0;
+  padding: 3em 0 4em 0;
   text-align: center;
+}
+
+/* custom CSS for bg image in CTA section */
+
+@media screen and (max-width: 675px) {
+  #cta {
+    background-repeat: no-repeat;
+  }
 }
 
 #cta h2,
