@@ -3256,13 +3256,14 @@ body.landing #page-wrapper {
 
 #banner {
   background-attachment: scroll, fixed;
-  background-color: #666;
+  background-color: #bbb;
   background-image: url("images/overlay.png"),
     url("../../images/classroom03.jpg");
   background-position: top left, center center;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
-  /* background-size: auto, contain; */
+  /* darken background banner image for greater contrast with text */
+  background-blend-mode: multiply, multiply;
   color: #eee;
   padding: 15em 0 17.5em 0;
   text-align: center;
