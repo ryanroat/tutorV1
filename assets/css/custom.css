@@ -3,6 +3,10 @@ header.major h2 a {
   border-bottom: none;
 }
 
+.row {
+  justify-content: center;
+}
+
 img#virtual,
 img#ANR {
   /* padding: 0.5rem; */
