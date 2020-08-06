@@ -1,3 +1,8 @@
+header.major h2 a {
+  text-decoration: none;
+  border-bottom: none;
+}
+
 img#virtual,
 img#ANR {
   /* padding: 0.5rem; */
